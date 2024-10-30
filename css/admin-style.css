@@ -1,0 +1,22 @@
+#lfdl_spinner_container{
+	display: none;
+}
+
+.lfdl_spinner {
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	position: relative;
+	border-top: 4px solid #3498db;
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 4px solid transparent;
+	border-radius: 50%;
+	animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+  }
+  
